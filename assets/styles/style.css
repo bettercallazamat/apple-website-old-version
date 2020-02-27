@@ -22,7 +22,19 @@ main {
   margin: 0 auto;
   align-items: center;
   text-align: center;
-  background-color: coral;
+  background-color: rgb(51, 51, 51);
+  background: linear-gradient(to bottom, rgba(163,163,163,1) 0%, rgba(115,114,115,1) 20%, rgba(97,96,97,1) 50%, rgba(115,114,115,1) 80%, rgba(163,163,163,1) 100%);
+  border-radius: 3px;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #e2e2e2;
+}
+
+.main-nav input {
+  width: 70%;
+  border-radius: 25%;
 }
 
 header {
@@ -33,6 +45,7 @@ header {
   margin: auto 0;
   text-align: center;
   font-weight: normal;
+  background-size: cover;
 }
 
 header h1 {
@@ -46,18 +59,36 @@ header h2 {
   font-weight: normal;
 }
 
+
 section.columns {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  max-width: 100%;
 }
 
 div.column {
-  width: calc(25%-2px);
+  height: 230px;
+  background-color: red;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-size: cover;
 }
 
-.column img {
-  width: 100%;
-  margin-left: -10%;
+.columns .banner1 {
+  background-image: url("../imgs/column1.jpg");
+}
+
+.columns .banner2 {
+  background-image: url("../imgs/column2.jpg");
+}
+
+.columns .banner3 {
+  background-image: url("../imgs/column3.jpg");
+}
+
+.columns .banner4 {
+  background-image: url("../imgs/column4.jpg");
 }
 
 footer {
