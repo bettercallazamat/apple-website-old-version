@@ -2,7 +2,7 @@
 
 > This project consists of making a clone of a New York Times article page.
 
-![screenshot](../imgs/screenshot.png)
+![screenshot](.assets/imgs/screenshot.png)
 
 ## Features
 
