@@ -23,7 +23,7 @@ main {
   align-items: center;
   text-align: center;
   background-color: rgb(51, 51, 51);
-  background-image: linear-gradient(to bottom, rgba(163,163,163,1) 0%, rgba(115,114,115,1) 20%, rgba(97,96,97,1) 50%, rgba(115,114,115,1) 80%, rgba(163,163,163,1) 100%);
+  background-image: linear-gradient(rgba(163,163,163,1) 0%, rgba(115,114,115,1) 20%, rgba(97,96,97,1) 50%, rgba(115,114,115,1) 80%, rgba(163,163,163,1) 100%);
   border-radius: 3px;
 }
 
@@ -64,7 +64,7 @@ main {
   width: 80%;
   height: 20px;
   border-radius: 10px;
-  border: 1px solid rgba(161, 161, 161, 0.7);;
+  border: 1px solid rgba(161, 161, 161, 0.7);
   box-shadow: 0 0 2px 0 rgb(199, 199, 199);
   background-color: transparent;
   background-image: url("../imgs/search-icon.svg");
@@ -93,7 +93,7 @@ main header {
   max-width: 960px;
   font-family: 'Gruppo', Arial, Helvetica, sans-serif;
   color: #ededed;
-  text-shadow: black 0.1em 0.1em 0.2em
+  text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 header h1 {
@@ -190,8 +190,9 @@ footer {
 
 @media only screen and (max-width: 1120px) {
   footer {
-      grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
   }
+  
   .footer-nav {
     grid-column: 1;
     grid-row: 1;
