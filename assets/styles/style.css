@@ -23,7 +23,7 @@ main {
   align-items: center;
   text-align: center;
   background-color: rgb(51, 51, 51);
-  background-image: linear-gradient(rgb(163, 163, 163),  rgb(115, 114, 115) 20%,  rgb(97, 96, 97) 50%,  rgb(115, 114, 115) 80%,  rgb(163, 163, 163));
+  background-image: linear-gradient(rgb(163, 163, 163), rgb(115, 114, 115) 20%, rgb(97, 96, 97) 50%, rgb(115, 114, 115) 80%, rgb(163, 163, 163));
   border-radius: 3px;
 }
 
