@@ -31,6 +31,8 @@ main {
   border-right: 1px solid rgb(74, 74, 74);
   height: 36px;
   padding-top: 12px;
+  text-decoration: none;
+  color: #e2e2e2;
 }
 
 .main-nav a:first-of-type {
@@ -39,12 +41,23 @@ main {
 
 .main-nav img {
   margin: auto;
-  padding-top: 5px;
+  margin-top: 7%;
+  height: 60%;
 }
 
-.main-nav a {
-  text-decoration: none;
-  color: #e2e2e2;
+@media only screen and (max-width: 960px) {
+  .main-nav {
+    max-width: 700px;
+  }
+
+  .main-nav a {
+    font-size: 10px;
+  }
+
+  .main-nav img {
+    margin-top: 10%;
+    height: 55%;;
+  }
 }
 
 .main-nav input {
@@ -77,7 +90,7 @@ main header {
   position: relative;
   top: 20vh;
   margin: 0 auto;
-  width: 960px;
+  max-width: 960px;
   font-family: 'Gruppo', Arial, Helvetica, sans-serif;
   color: #ededed;
   text-shadow: black 0.1em 0.1em 0.2em
@@ -99,6 +112,19 @@ header a {
   font-size: 30px;
 }
 
+@media only screen and (max-width: 960px) {
+  header h1 {
+    font-size: 45px;
+  }
+
+  header h2 {
+    font-size: 35px;
+  }
+
+  header a {
+    font-size: 25px;
+  }
+}
 
 section.columns {
   display: grid;
@@ -113,6 +139,12 @@ div.column {
   background-repeat: no-repeat;
   background-clip: border-box;
   background-size: cover;
+}
+
+@media only screen and (max-width: 960px) {
+  div.column {
+    height: 150px;
+  }
 }
 
 .columns .banner1 {
@@ -147,6 +179,17 @@ footer {
   grid-column: 2;
   grid-row: 1;
   justify-self: right;
+}
+
+@media only screen and (max-width: 1120px) {
+  footer {
+      grid-template-columns: 1fr;
+  }
+  .footer-nav {
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: left;
+  }
 }
 
 footer a {
