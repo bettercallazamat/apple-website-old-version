@@ -133,6 +133,10 @@ header i {
   }
 }
 
+.hidden {
+  display: none;
+}
+
 section.columns {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
