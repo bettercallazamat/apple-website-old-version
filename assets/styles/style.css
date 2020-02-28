@@ -23,7 +23,7 @@ main {
   align-items: center;
   text-align: center;
   background-color: rgb(51, 51, 51);
-  background-image: linear-gradient(rgba(163, 163, 163, 1) 0%,  rgba(115, 114, 115, 1) 20%,  rgba(97, 96, 97, 1) 50%,  rgba(115, 114, 115, 1) 80%,  rgba(163, 163, 163, 1) 100%);
+  background-image: linear-gradient(rgb(163, 163, 163) 0%,  rgb(115, 114, 115) 20%,  rgb(97, 96, 97) 50%,  rgb(115, 114, 115) 80%,  rgb(163, 163, 163) 100%);
   border-radius: 3px;
 }
 
@@ -35,7 +35,7 @@ main {
   color: #e2e2e2;
 }
 
-.main-nav a:first-of-type {
+  a.logo-img-link {
   padding: 0;
 }
 
@@ -192,7 +192,7 @@ footer {
   footer {
     grid-template-columns: 1fr;
   }
-  
+
   .footer-nav {
     grid-column: 1;
     grid-row: 1;
